@@ -32,7 +32,7 @@ function Navbar() {
           </>
         ) : (
           <>
-            <Link to="/dashboard" className="hover:text-blue-600">
+            <Link to="/Dashboard" className="hover:text-blue-600">
               Dashboard
             </Link>
 

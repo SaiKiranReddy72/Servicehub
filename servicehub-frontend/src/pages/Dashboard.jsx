@@ -62,7 +62,7 @@ const handleLogout = () => {
     <ul className="space-y-4 text-gray-700">
       <li
         className="hover:text-blue-600 cursor-pointer"
-        onClick={() => navigate("/dashboard")}
+        onClick={() => navigate("/Dashboard")}
       >
         Dashboard
       </li>
