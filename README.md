@@ -1,31 +1,83 @@
-ServiceHub – Full Stack Service Booking Platform
+🚀 ServiceHub – Full Stack Service Booking Platform
 
-ServiceHub is a full-stack web application that allows users to browse services, book appointments, and manage their profiles. It integrates a React frontend with a Spring Boot backend and MySQL database.
+ServiceHub is a full-stack web application that allows users to explore services, book appointments, and manage their profiles through an interactive dashboard.
 
-Features:
+The project demonstrates integration between a React frontend, Spring Boot backend, and MySQL database.
+
+📸 Screenshots
+🏠 Homepage
+![Homepage](screenshots/Homepage.png)
+
+📊 Dashboard
+![Dashboard](screenshots/Dashboard.png)
+
+✨ Features
 
 User registration and login
 
-Service dashboard with dynamic service cards
+Interactive service dashboard
 
-Search and filter services
+Search functionality to filter services
 
-Booking modal to schedule services
+Book service using booking modal
 
 Appointments page to view booked services
 
-User profile with logout functionality
+User profile page with logout functionality
 
 Protected routes for authenticated users
 
-Tech Stack:
+Dynamic UI updates using React Hooks
 
-Frontend: React.js, React Router, Tailwind CSS
-Backend: Java, Spring Boot, Spring Security
-Database: MySQL (JPA / Hibernate)
-Tools: Git, GitHub, VS Code, Postman
+🛠 Tech Stack
+Frontend
 
-How to Run:
+React.js
+
+React Router
+
+Tailwind CSS
+
+JavaScript (ES6)
+
+Backend
+
+Java
+
+Spring Boot
+
+Spring Security
+
+REST APIs
+
+Database
+
+MySQL
+
+JPA / Hibernate
+
+Tools
+
+Git & GitHub
+
+VS Code
+
+Postman
+
+📂 Project Structure
+servicehub
+│
+├── servicehub-frontend
+│   ├── components
+│   ├── pages
+│   └── App.jsx
+│
+└── servicehub-backend
+    ├── controller
+    ├── service
+    ├── repository
+    └── model
+▶️ How to Run
 Backend
 cd servicehub-backend
 mvn spring-boot:run
@@ -41,17 +93,23 @@ npm run dev
 Runs on:
 http://localhost:5173
 
-Key Concepts
+📚 Concepts Demonstrated
+
+React component-based architecture
 
 React Hooks (useState)
 
-Component-based architecture
-
 React Router navigation
+
+Conditional rendering
+
+Dynamic service listing
 
 REST API integration
 
-Full-stack development with React + Spring Boot
+Full-stack development
 
-Author: Sai Reddy
+👨‍💻 Author
+
+Sai Reddy
 Aspiring Full Stack Developer 🚀
