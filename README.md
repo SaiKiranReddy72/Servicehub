@@ -4,12 +4,13 @@ ServiceHub is a full-stack web application that allows users to explore services
 
 The project demonstrates integration between a React frontend, Spring Boot backend, and MySQL database.
 
-📸 Screenshots
-🏠 Homepage
-![Homepage](screenshots/Homepage.png)
+## 📸 Screenshots
 
-📊 Dashboard
-![Dashboard](screenshots/Dashboard.png)
+### 🏠 Homepage
+![Homepage](Homepage.png)
+
+### 📊 Dashboard
+![Dashboard](Dashboard.png)
 
 ✨ Features
 
