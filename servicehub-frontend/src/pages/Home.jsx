@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 
 function Home() {
   return (
+    
     <div>
       <Navbar />
 
@@ -13,7 +14,7 @@ function Home() {
         style={{ backgroundImage: `url(${hero})` }}
       >
         <div className="absolute inset-0 bg-black opacity-40"></div>
-        <div className="bg-black bg-opacity-60 p-10 rounded-xl text-center text-white">
+        <div className="bg-black z-10 bg-opacity-60 p-10 rounded-xl text-center text-white">
           <h1 className="text-4xl font-bold mb-4">
             Professional Home Services
           </h1>
@@ -30,6 +31,8 @@ function Home() {
         </div>
       </div>
     </div>
+    
+
   );
 }
 
